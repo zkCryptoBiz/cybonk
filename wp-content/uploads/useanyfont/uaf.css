@@ -1,0 +1,35 @@
+@font-face {
+	font-family: 'robotech';
+	src: url('6427Robotech.woff2') format('woff2'),
+		url('6427Robotech.woff') format('woff');
+	font-display: auto;
+}
+
+.robotech {
+	font-family: 'robotech' !important;
+}
+
+@font-face {
+	font-family: 'coolvetica';
+	src: url('4399coolvetica.woff2') format('woff2'),
+		url('4399coolvetica.woff') format('woff');
+	font-display: auto;
+}
+
+.coolvetica {
+	font-family: 'coolvetica' !important;
+}
+
+h1,
+h2,
+.menu-hauptmenu-container li a,
+.menu-hauptmenu-container li span,
+#menu-hauptmenu li a,
+#menu-hauptmenu li span {
+	font-family: 'robotech' !important;
+}
+h3,
+h4,
+.site-description {
+	font-family: 'coolvetica' !important;
+}
